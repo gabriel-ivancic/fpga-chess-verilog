@@ -41,16 +41,15 @@ The primary goal of the project was to demonstrate practical digital system desi
 
 ## Controls and User Interaction
 
-- **Directional Buttons (UP / DOWN / LEFT / RIGHT)**  
-  Move the board cursor across chessboard squares.
+- **BTN_L** – move cursor left
+- **BTN_R** – move cursor right
+- **ROT_BT** – move cursor up
+- **BTN_SR** – move cursor down
 
-- **Center Button**  
-  Select (pick up) or place a chess piece.
+- **TAKE/PLACE button (click → `TAKE_p`)**  
+  Select a piece (pick up) or place it on the target square (including captures).
 
-- **Reset Switch (SW3)**  
-  Reset the board state and move timer.
-
-All input signals are debounced and synchronized to the internal clock domain.
+- **SW3** – reset board state and move timer
 
 ---
 

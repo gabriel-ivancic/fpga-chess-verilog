@@ -39,17 +39,17 @@ The primary goal of the project was to demonstrate practical digital system desi
 
 ---
 
-## Controls and User Interaction
+## Controls and User Interaction (Spartan-3E board)
 
-- **BTN_L** – move cursor left
-- **BTN_R** – move cursor right
-- **ROT_BT** – move cursor up
-- **BTN_SR** – move cursor down
+- **BTN_L** – move the board cursor left  
+- **BTN_R** – move the board cursor right  
+- **BTN_SR** – move the board cursor down  
+- **ROT_BT** – move the board cursor up  
 
-- **TAKE/PLACE button (click → `TAKE_p`)**  
-  Select a piece (pick up) or place it on the target square (including captures).
+- **BTN_RST** – pick up a piece from the selected square or place it on the target square  
+  (used for both selecting a piece and confirming a move, including captures)
 
-- **SW3** – reset board state and move timer
+- **SW3** – reset the board state and move timer
 
 ---
 
